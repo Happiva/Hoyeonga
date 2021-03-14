@@ -106,6 +106,11 @@ public class PlayerController : MonoBehaviour
         foreach (Collider2D enemy in hitEnemies)
         {
             Debug.Log("Hit");
+
+            if (enemy.gameObject.layer == 10) //공격한 것이 파괴가능한 물체일 때
+            {
+                enemy.GetComponent<DestructableObstacle>().Damage(1);
+            }
         }
     }
 

@@ -8,33 +8,43 @@ public class CameraFollow : MonoBehaviour
 
     public GameObject target;
 
+    private Vector3 targetPosition;
+    public Vector3 offset;
+
+    [Range(1, 10)]
+    public float smoothFactor;
+
     private float viewOffset; //방향키로 시점 이동 시 카메라를 이동할 거리
-
     private float viewMove;
-
-    private bool cameraMove;
 
     void Start()
     {
-        viewOffset = 4f;
-        cameraMove = false;
+        viewOffset = 5f;
     }
 
     
     void LateUpdate()
     {
         //Camera가 Player를 위주로 움직임. (임시)
-        Vector3 targetPosition = new Vector3(target.transform.position.x, target.transform.position.y, -10);        
+        
+        targetPosition = target.transform.position + offset;
+        
+        Vector3 smoothPosition = Vector3.Lerp(transform.position, targetPosition, smoothFactor * Time.deltaTime);
 
+        transform.position = smoothPosition;
+        
+        CameraUpDown();
+        
+    }
+
+    void CameraUpDown()
+    {
         //방향키를 이용한 Camera의 이동.
-        viewMove = Input.GetAxisRaw("Vertical");
-
+        viewMove = Input.GetAxisRaw("Vertical");        
 
         if (Input.GetButton("Vertical"))
         {
             Vector3 pos;
-
-            cameraMove = true;
 
             if (viewMove > 0)
             {
@@ -49,15 +59,12 @@ public class CameraFollow : MonoBehaviour
                 transform.position = Vector3.Lerp(transform.position, pos, Time.deltaTime * 2f);
             }
 
-        } else if (!cameraMove){
-            transform.position = targetPosition;
         }
 
         if (Input.GetButtonUp("Vertical"))
         {
             transform.position = Vector3.Lerp(transform.position, targetPosition, Time.deltaTime * 2f);
 
-            cameraMove = false;
         }
     }
 }
