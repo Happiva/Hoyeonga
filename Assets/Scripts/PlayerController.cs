@@ -9,34 +9,68 @@ public class PlayerController : MonoBehaviour
     public float jumpForce;
 
     private float defaultMoveSpeed = 6f;
-
     private bool sitDown;
-    private bool onGround;
-
     private float movement;
 
     private Rigidbody2D rigid;
+    private BoxCollider2D boxCollider;
+    private PlayerHeadCheck headCheck;
 
     public Collider2D healthCollider;
 
     public Transform attackBox;
     public float attackRange = 0.5f;
     public LayerMask enemyLayer;
+    public LayerMask platformLayer;
     
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
+        boxCollider = GetComponent<BoxCollider2D>();
+        headCheck = GetComponentInChildren<PlayerHeadCheck>();
 
         moveSpeed = defaultMoveSpeed;
 
-        onGround = true;
         sitDown = false;
     }
 
-    
+    void Update()
+    {
+        Debug.Log(headCheck.isSomethingOnHead);
+
+        //점프        
+        if (Input.GetButtonDown("Jump") && IsGrounded())
+        {
+            rigid.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+        }
+
+        //앉기
+        if (Input.GetButton("Sit"))
+        {
+            sitDown = true;
+        }
+        else if (Input.GetButtonUp("Sit") && !headCheck.isSomethingOnHead)
+        {
+            sitDown = false;
+        }
+    }
+
     void FixedUpdate()
     {
 
+        PlayerMove();
+               
+        PlayerSit();
+
+        //공격
+        if (Input.GetButtonDown("Attack")) {
+            Debug.Log("Attack");
+            PlayerAttack();            
+        }
+    }
+
+    void PlayerMove()
+    {
         //좌우 이동
         movement = Input.GetAxisRaw("Horizontal");
 
@@ -45,42 +79,15 @@ public class PlayerController : MonoBehaviour
         if (rigid.velocity.x > moveSpeed) rigid.velocity = new Vector2(moveSpeed, rigid.velocity.y);
         else if (rigid.velocity.x < moveSpeed * (-1)) rigid.velocity = new Vector2(moveSpeed * (-1), rigid.velocity.y);
 
-
-        //점프 (임시)
-        if (Input.GetButtonDown("Jump") && onGround) {
-
-            //다중 점프 차단
-            rigid.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
-            onGround = false;
-        }
-
-
-        //앉기
-        if (Input.GetButton("Sit"))
+        /*
+        if (!Input.GetButton("Horizontal"))
         {
-            sitDown = true;            
+            rigid.velocity = new Vector2(0, rigid.velocity.y);
+            //rigid.constraints = RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezeRotation;
         }
-        else if (Input.GetButtonUp("Sit"))
-        {
-            sitDown = false;
-            
-        }
-
-        PlayerSit();
-
-
-        //공격
-        if (Input.GetButtonDown("Attack")) {
-            Debug.Log("Attack");
-            PlayerAttack();            
-        }
-
-
-        //상호작용    
-        if (Input.GetButtonDown("Interaction")) {
-
-        }
+        */
     }
+
 
     //Player의 앉기 동작
     //후에 애니메이션 재생 코드 입력 예정
@@ -121,10 +128,35 @@ public class PlayerController : MonoBehaviour
         Gizmos.DrawWireSphere(attackBox.position, attackRange);
     }
 
-
-    //충돌 감지
-    void OnCollisionEnter2D(Collision2D other)
+    private bool IsGrounded()
     {
-        if (other.gameObject.tag == "Ground") onGround = true;      
+        float extraHeight = .1f;
+
+        RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider.bounds.center, boxCollider.bounds.size, 0f, Vector2.down, extraHeight, platformLayer);
+        Color rayColor;
+        if (raycastHit.collider != null)
+        {
+            rayColor = Color.green;
+        }
+        else {
+            rayColor = Color.red;
+        }
+
+        /*
+        Debug.DrawRay(boxCollider.bounds.center + new Vector3(boxCollider.bounds.extents.x, 0), Vector2.down * (boxCollider.bounds.extents.y + extraHeight), rayColor);
+        Debug.DrawRay(boxCollider.bounds.center - new Vector3(boxCollider.bounds.extents.x, 0), Vector2.down * (boxCollider.bounds.extents.y + extraHeight), rayColor);
+        Debug.DrawRay(boxCollider.bounds.center - new Vector3(boxCollider.bounds.extents.x, boxCollider.bounds.extents.y), Vector2.right * (boxCollider.bounds.extents.x), rayColor);
+
+        Debug.Log(raycastHit.collider);
+        */
+
+        return raycastHit.collider != null;
     }
+   
+}
+
+
+public class DeathBehaviour : StateMachineBehaviour
+{
+
 }

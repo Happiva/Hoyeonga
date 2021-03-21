@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - GameManager
   layers:
   - Default
   - TransparentFX
@@ -17,8 +18,8 @@ TagManager:
   - Player
   - Enemies
   - Obstacle
-  - 
-  - 
+  - Ground
+  - NPC
   - 
   - 
   - 
@@ -39,6 +40,24 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 4016457091
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 3308241421
+    locked: 0
+  - name: Object
+    uniqueID: 3415142929
+    locked: 0
+  - name: Player
+    uniqueID: 1618949717
+    locked: 0
+  - name: CanHideObject
+    uniqueID: 387185807
+    locked: 0
+  - name: UI
+    uniqueID: 1122173873
     locked: 0

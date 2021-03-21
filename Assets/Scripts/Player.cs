@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -11,19 +12,43 @@ public class Player : MonoBehaviour
 
     public bool playerDead;
 
+    public SpriteRenderer spriteRenderer;
+    private GameManager gameManager;
+
     void Start()
     {
         playerHP = 1;
         playerDead = false;
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        gameManager = GameObject.FindGameObjectWithTag("GameManager").GetComponent<GameManager>();
+
+        gameManager.lastCheckPoint = transform.position;
     }
 
     
     void Update()
     {
         if (playerHP <= 0) playerDead = true;
+
+
+        if (Input.GetAxis("Horizontal") < 0)
+        {
+            spriteRenderer.flipX = true;
+        }
+        else if (Input.GetAxis("Horizontal") > 0) {
+            spriteRenderer.flipX = false;
+        }
+
+        if (playerDead)
+        {
+            Debug.Log("Game Over!");
+            //Destroy(this.gameObject);
+
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        }
     }
 
-    void Damage(int damage)
+    public void Damage(int damage)
     {
         playerHP -= damage;
 
