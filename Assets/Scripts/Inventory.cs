@@ -15,6 +15,6 @@ public class Inventory : MonoBehaviour
 
     public void putDownItem(Item item)
     {
-        
+        items = null;
     }
 }

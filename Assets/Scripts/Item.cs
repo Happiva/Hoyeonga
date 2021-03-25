@@ -15,6 +15,13 @@ public class Item : MonoBehaviour
 
         inven.getItem(this);
 
-        gameObject.SetActive(false);
+        DestroySelf();
+
+        //gameObject.SetActive(false);
+    }
+
+    private void DestroySelf()
+    {
+        Destroy(gameObject);
     }
 }

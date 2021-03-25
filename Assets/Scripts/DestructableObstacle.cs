@@ -12,12 +12,15 @@ public class DestructableObstacle : MonoBehaviour
     private Collider2D col;
     private Rigidbody2D rigid;
 
+    private Animator ani;
+
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
         col = GetComponent<BoxCollider2D>();
         rigid = GetComponent<Rigidbody2D>();
+        ani = GetComponent<Animator>();
     }
 
     void Update()
@@ -36,18 +39,22 @@ public class DestructableObstacle : MonoBehaviour
     
     void ObjectDestroyed() {
 
-        //파괴 애니메이션 있으면 넣기
+        /*
         spriteRenderer.sprite = destroyedSp;       
 
         col.enabled = false;
 
         rigid.constraints = RigidbodyConstraints2D.None;
         Invoke("ObjectDestroy", .5f);
+        */
+
+        ani.SetTrigger("IsDestroyed");
     }
 
-    
+    /*
     void ObjectDestroy() {
         Destroy(gameObject);
     }
+    */
     
 }
