@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7079255013910011433}
   - component: {fileID: 3707999507501460883}
-  - component: {fileID: 5282710511530411718}
+  - component: {fileID: 373702336}
   m_Layer: 11
   m_Name: Rock1
   m_TagString: Ground
@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 7650353635525204087}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.79, y: -0.96, z: 0}
-  m_LocalScale: {x: 3, y: 2, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -71,7 +71,8 @@ SpriteRenderer:
   m_SortingLayerID: -879824367
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1b2c5cfd39609f3488b74b198dbb8889, type: 3}
+  m_Sprite: {fileID: -4214361186077344282, guid: d809c1067d5af1f4fae702646a767d61,
+    type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -82,8 +83,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!60 &5282710511530411718
-PolygonCollider2D:
+--- !u!61 &373702336
+BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -99,15 +100,12 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1.4816667, y: 1.1083333}
+    oldSize: {x: 1.8399999, y: 1.3151633}
     newSize: {x: 1, y: 0.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Points:
-    m_Paths:
-    - - {x: -0.46404114, y: -0.12953842}
-      - {x: -0.557611, y: 0.13703844}
-      - {x: 0.4304812, y: 0.14131448}
-      - {x: 0.53675675, y: -0.12576686}
+  serializedVersion: 2
+  m_Size: {x: 1.49, y: 0.5}
+  m_EdgeRadius: 0

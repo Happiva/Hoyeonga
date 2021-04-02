@@ -59,6 +59,9 @@ TagManager:
   - name: CanHideObject
     uniqueID: 387185807
     locked: 0
+  - name: Foreground
+    uniqueID: 2689561589
+    locked: 0
   - name: UI
     uniqueID: 1122173873
     locked: 0

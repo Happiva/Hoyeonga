@@ -1,13 +1,79 @@
 fileFormatVersion: 2
-guid: 7efce05698017b44ab3a66b645450945
+guid: d809c1067d5af1f4fae702646a767d61
 TextureImporter:
   internalIDToNameTable:
   - first:
       213: 3525016606745066288
     second: Object_Prop_0
   - first:
-      213: 834983354716134580
-    second: Object_Prop_29
+      213: -1561763620405612451
+    second: Object_Prop_1
+  - first:
+      213: 9031677100486370367
+    second: Object_Prop_2
+  - first:
+      213: 8241252010406802316
+    second: Object_Prop_3
+  - first:
+      213: -2372289668768791701
+    second: Object_Prop_4
+  - first:
+      213: -2983877482250689075
+    second: Object_Prop_5
+  - first:
+      213: -3839058467611835342
+    second: Object_Prop_6
+  - first:
+      213: -5126306726614669892
+    second: Object_Prop_7
+  - first:
+      213: -7836664568130998176
+    second: Object_Prop_8
+  - first:
+      213: 7822950183748719587
+    second: Object_Prop_9
+  - first:
+      213: -1514691879503760848
+    second: Object_Prop_10
+  - first:
+      213: -6194977583586661237
+    second: Object_Prop_11
+  - first:
+      213: 2572879229762100917
+    second: Object_Prop_12
+  - first:
+      213: -6853945449968116542
+    second: Object_Prop_13
+  - first:
+      213: 2735486828465874193
+    second: Object_Prop_14
+  - first:
+      213: -6218612113696539951
+    second: Object_Prop_16
+  - first:
+      213: 8064193562045161288
+    second: Object_Prop_17
+  - first:
+      213: -9027969810626367649
+    second: Object_Prop_18
+  - first:
+      213: -7351000018038129300
+    second: Object_Prop_19
+  - first:
+      213: -4214361186077344282
+    second: Object_Prop_20
+  - first:
+      213: 827442996113800879
+    second: Object_Prop_21
+  - first:
+      213: -935379229781816559
+    second: Object_Prop_22
+  - first:
+      213: 8231717448778091975
+    second: Object_Prop_23
+  - first:
+      213: -6602120940996669399
+    second: Object_Prop_24
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -117,13 +183,34 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
+      name: Object_Prop_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 1481
+        width: 1497
+        height: 673
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03b74607def5be030800000000000000
+      internalID: 3525016606745066288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Object_Prop_1
       rect:
         serializedVersion: 2
-        x: 1959
-        y: 2835
+        x: 1575
+        y: 1897
         width: 641
-        height: 408
+        height: 218
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -141,10 +228,10 @@ TextureImporter:
       name: Object_Prop_2
       rect:
         serializedVersion: 2
-        x: 2627
-        y: 2813
-        width: 636
-        height: 408
+        x: 2276
+        y: 1901
+        width: 644
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -162,10 +249,10 @@ TextureImporter:
       name: Object_Prop_3
       rect:
         serializedVersion: 2
-        x: 3316
-        y: 2807
-        width: 645
-        height: 406
+        x: 2955
+        y: 1910
+        width: 644
+        height: 218
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -183,10 +270,10 @@ TextureImporter:
       name: Object_Prop_4
       rect:
         serializedVersion: 2
-        x: 1298
-        y: 2392
-        width: 647
-        height: 409
+        x: 2775
+        y: 1886
+        width: 9
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -204,10 +291,10 @@ TextureImporter:
       name: Object_Prop_5
       rect:
         serializedVersion: 2
-        x: 1994
-        y: 2362
-        width: 645
-        height: 406
+        x: 1596
+        y: 1647
+        width: 642
+        height: 221
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -225,10 +312,10 @@ TextureImporter:
       name: Object_Prop_6
       rect:
         serializedVersion: 2
-        x: 2671
-        y: 2335
-        width: 647
-        height: 407
+        x: 2306
+        y: 1648
+        width: 639
+        height: 218
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -246,10 +333,10 @@ TextureImporter:
       name: Object_Prop_7
       rect:
         serializedVersion: 2
-        x: 3367
-        y: 2317
-        width: 625
-        height: 406
+        x: 2987
+        y: 1643
+        width: 646
+        height: 220
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -267,10 +354,10 @@ TextureImporter:
       name: Object_Prop_8
       rect:
         serializedVersion: 2
-        x: 232
-        y: 1555
-        width: 797
-        height: 413
+        x: 1620
+        y: 1392
+        width: 645
+        height: 220
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,10 +375,10 @@ TextureImporter:
       name: Object_Prop_9
       rect:
         serializedVersion: 2
-        x: 1288
-        y: 1889
-        width: 651
-        height: 410
+        x: 2303
+        y: 1400
+        width: 636
+        height: 219
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -309,10 +396,10 @@ TextureImporter:
       name: Object_Prop_10
       rect:
         serializedVersion: 2
-        x: 2008
-        y: 1848
-        width: 657
-        height: 410
+        x: 3004
+        y: 1393
+        width: 645
+        height: 218
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -330,10 +417,10 @@ TextureImporter:
       name: Object_Prop_11
       rect:
         serializedVersion: 2
-        x: 2698
-        y: 1807
-        width: 647
-        height: 407
+        x: 976
+        y: 823
+        width: 1298
+        height: 531
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -351,10 +438,10 @@ TextureImporter:
       name: Object_Prop_12
       rect:
         serializedVersion: 2
-        x: 3339
-        y: 1811
-        width: 642
-        height: 406
+        x: 2357
+        y: 830
+        width: 1292
+        height: 533
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -372,10 +459,10 @@ TextureImporter:
       name: Object_Prop_13
       rect:
         serializedVersion: 2
-        x: 2950
-        y: 1710
-        width: 4
-        height: 4
+        x: 858
+        y: 257
+        width: 661
+        height: 510
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,10 +480,10 @@ TextureImporter:
       name: Object_Prop_14
       rect:
         serializedVersion: 2
-        x: 52
-        y: 1025
-        width: 1071
-        height: 480
+        x: 1559
+        y: 169
+        width: 603
+        height: 611
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -411,34 +498,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Object_Prop_15
-      rect:
-        serializedVersion: 2
-        x: 1301
-        y: 1174
-        width: 1297
-        height: 533
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 194a2603c491c1b10800000000000000
-      internalID: 1953464153391932561
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Object_Prop_16
       rect:
         serializedVersion: 2
-        x: 2682
-        y: 1182
-        width: 1293
-        height: 527
+        x: 2184
+        y: 417
+        width: 685
+        height: 304
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -456,10 +522,10 @@ TextureImporter:
       name: Object_Prop_17
       rect:
         serializedVersion: 2
-        x: 142
-        y: 156
-        width: 918
-        height: 838
+        x: 2971
+        y: 423
+        width: 286
+        height: 230
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -477,10 +543,10 @@ TextureImporter:
       name: Object_Prop_18
       rect:
         serializedVersion: 2
-        x: 760
-        y: 587
-        width: 337
-        height: 361
+        x: 3257
+        y: 421
+        width: 322
+        height: 317
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -498,10 +564,10 @@ TextureImporter:
       name: Object_Prop_19
       rect:
         serializedVersion: 2
-        x: 1183
-        y: 609
-        width: 662
-        height: 510
+        x: 917
+        y: 26
+        width: 536
+        height: 168
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -519,10 +585,10 @@ TextureImporter:
       name: Object_Prop_20
       rect:
         serializedVersion: 2
-        x: 1884
-        y: 520
-        width: 604
-        height: 613
+        x: 2305
+        y: 80
+        width: 368
+        height: 263
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -537,169 +603,18 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Object_Prop_22
-      rect:
-        serializedVersion: 2
-        x: 2506
-        y: 770
-        width: 688
-        height: 299
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 11b839edb8dd403f0800000000000000
-      internalID: -935379229781816559
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Object_Prop_23
-      rect:
-        serializedVersion: 2
-        x: 3296
-        y: 777
-        width: 288
-        height: 226
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7cd8dc9f76fec3270800000000000000
-      internalID: 8231717448778091975
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Object_Prop_24
-      rect:
-        serializedVersion: 2
-        x: 3584
-        y: 772
-        width: 320
-        height: 319
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 920d9b3dbfd8064a0800000000000000
-      internalID: -6602120940996669399
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Object_Prop_25
-      rect:
-        serializedVersion: 2
-        x: 1243
-        y: 379
-        width: 535
-        height: 167
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3644c8c9e46d29640800000000000000
-      internalID: 5085362562376942691
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Object_Prop_26
-      rect:
-        serializedVersion: 2
-        x: 2629
-        y: 432
-        width: 369
-        height: 263
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7fb3ab435fdfcade0800000000000000
-      internalID: -1320401361132962825
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Object_Prop_27
-      rect:
-        serializedVersion: 2
-        x: 3037
-        y: 431
-        width: 370
-        height: 252
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a66c8ab528e856340800000000000000
-      internalID: 4856444463723628138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Object_Prop_28
-      rect:
-        serializedVersion: 2
-        x: 1284
-        y: 126
-        width: 1179
-        height: 141
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63cbe50b25a6a8700800000000000000
-      internalID: 543363608430427190
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Object_Prop_21
       rect:
         serializedVersion: 2
-        x: 1251
-        y: 2842
-        width: 213
-        height: 403
+        x: 2712
+        y: 79
+        width: 370
+        height: 253
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape:
-      - - {x: -106.5, y: -201.5}
-        - {x: 106.5, y: -201.5}
-        - {x: 106.5, y: 101.57422}
-        - {x: -106.5, y: 101.573975}
+      physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: fae7f3f550bab7b00800000000000000
@@ -708,62 +623,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Object_Prop_0
-      rect:
-        serializedVersion: 2
-        x: 1464
-        y: 2842
-        width: 213
-        height: 403
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: -106.5, y: -201.5}
-        - {x: 106.5, y: -201.5}
-        - {x: 106.5, y: 101.72974}
-        - {x: -106.5, y: 101.58984}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 03b74607def5be030800000000000000
-      internalID: 3525016606745066288
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Object_Prop_29
-      rect:
-        serializedVersion: 2
-        x: 1677
-        y: 2842
-        width: 213
-        height: 403
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape:
-      - - {x: 39.53943, y: 101.79126}
-        - {x: -106.5, y: 101.75}
-        - {x: -106.5, y: -201.5}
-        - {x: 32.295044, y: -201.5}
-        - {x: 88.02881, y: -148.3396}
-        - {x: 87.90735, y: 46.779297}
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4bc183befe4769b00800000000000000
-      internalID: 834983354716134580
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: a58c58e3070787247a5da63b72f27529
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 

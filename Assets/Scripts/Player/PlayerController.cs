@@ -38,26 +38,27 @@ public class PlayerController : MonoBehaviour
     }
 
     void Update()
-    {
+    {          
         //미끄럼 방지
         if (Input.GetButtonUp("Horizontal"))
         {
-            rigid.velocity = new Vector2(rigid.velocity.x * 0.5f, rigid.velocity.y);
+            rigid.velocity = new Vector2(rigid.velocity.x * 0.1f, rigid.velocity.y);
         }
-
 
         //점프        
         if (Input.GetButtonDown("Jump") && IsGrounded())
         {
             rigid.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
+            animator.SetBool("isJumping", true);
+            animator.SetBool("onGround", false);
         }
 
         //앉기
-        if (Input.GetButton("Sit"))
-        {
+        if (Input.GetButton("Sit") && IsGrounded())
+        {            
             sitDown = true;
         }
-        else if (Input.GetButtonUp("Sit") && !headCheck.isSomethingOnHead)
+        else if (!Input.GetButton("Sit") && !headCheck.isSomethingOnHead)
         {
             sitDown = false;
         }
@@ -65,8 +66,27 @@ public class PlayerController : MonoBehaviour
         //아이템
         if (Input.GetButtonDown("Interaction"))
         {            
-            Debug.Log(GetComponent<Inventory>().items.name);
+            //Debug.Log(GetComponent<Inventory>().items.name);
         }
+
+        //낙하 확인
+        
+        if (IsGrounded())
+        {
+            animator.SetBool("onGround", true);
+            animator.SetBool("isJumping", false);
+            animator.SetBool("isLanding", false);
+        }
+        else
+        {
+            if (rigid.velocity.y < 0)
+            {
+                animator.SetBool("isLanding", true);
+            }
+
+            animator.SetBool("onGround", false);
+            animator.SetBool("isJumping", true);
+        } 
     }
 
     void FixedUpdate()
@@ -102,12 +122,12 @@ public class PlayerController : MonoBehaviour
     {
         if (sitDown)
         {
-            GetComponent<Collider2D>().enabled = false;
+            healthCollider.GetComponent<Collider2D>().enabled = false;
             moveSpeed = defaultMoveSpeed / 2;
         }
         else
         {
-            GetComponent<Collider2D>().enabled = true;
+            healthCollider.GetComponent<Collider2D>().enabled = true;
             moveSpeed = defaultMoveSpeed;
         }
     }
@@ -152,16 +172,19 @@ public class PlayerController : MonoBehaviour
         Debug.DrawRay(boxCollider.bounds.center - new Vector3(boxCollider.bounds.extents.x, 0), Vector2.down * (boxCollider.bounds.extents.y + extraHeight), rayColor);
         Debug.DrawRay(boxCollider.bounds.center - new Vector3(boxCollider.bounds.extents.x, boxCollider.bounds.extents.y), Vector2.right * (boxCollider.bounds.extents.x), rayColor);
 
-        Debug.Log(raycastHit.collider);
+        Debug.Log(raycastHit.collider);        
         */
 
         return raycastHit.collider != null;
     }
+
+    void OnCollisionEnter2D(Collision2D col)
+    {
+        if (col.gameObject.tag == ("Ground"))
+        {
+            //animator.SetBool("isLanding", false);
+            animator.SetBool("isJumping", false);
+        }
+    }
    
-}
-
-
-public class DeathBehaviour : StateMachineBehaviour
-{
-
 }
