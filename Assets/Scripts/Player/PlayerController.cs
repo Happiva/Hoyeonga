@@ -69,8 +69,7 @@ public class PlayerController : MonoBehaviour
             //Debug.Log(GetComponent<Inventory>().items.name);
         }
 
-        //낙하 확인
-        
+        //낙하 확인        
         if (IsGrounded())
         {
             animator.SetBool("onGround", true);
@@ -79,6 +78,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
+            moveSpeed = defaultMoveSpeed / 2;
             if (rigid.velocity.y < 0)
             {
                 animator.SetBool("isLanding", true);
@@ -168,11 +168,11 @@ public class PlayerController : MonoBehaviour
         }
 
         /*
-        Debug.DrawRay(boxCollider.bounds.center + new Vector3(boxCollider.bounds.extents.x, 0), Vector2.down * (boxCollider.bounds.extents.y + extraHeight), rayColor);
-        Debug.DrawRay(boxCollider.bounds.center - new Vector3(boxCollider.bounds.extents.x, 0), Vector2.down * (boxCollider.bounds.extents.y + extraHeight), rayColor);
-        Debug.DrawRay(boxCollider.bounds.center - new Vector3(boxCollider.bounds.extents.x, boxCollider.bounds.extents.y), Vector2.right * (boxCollider.bounds.extents.x), rayColor);
+            Debug.DrawRay(boxCollider.bounds.center + new Vector3(boxCollider.bounds.extents.x, 0), Vector2.down * (boxCollider.bounds.extents.y + extraHeight), rayColor);
+            Debug.DrawRay(boxCollider.bounds.center - new Vector3(boxCollider.bounds.extents.x, 0), Vector2.down * (boxCollider.bounds.extents.y + extraHeight), rayColor);
+            Debug.DrawRay(boxCollider.bounds.center - new Vector3(boxCollider.bounds.extents.x, boxCollider.bounds.extents.y), Vector2.right * (boxCollider.bounds.extents.x), rayColor);
 
-        Debug.Log(raycastHit.collider);        
+            Debug.Log(raycastHit.collider);        
         */
 
         return raycastHit.collider != null;

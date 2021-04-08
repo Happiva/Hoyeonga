@@ -12,9 +12,9 @@ GameObject:
   - component: {fileID: 4427488811498322934}
   - component: {fileID: 4427488811498322933}
   - component: {fileID: 3713596381401688912}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: Tree (2)
-  m_TagString: Object
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -26,7 +26,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4427488811498322928}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 19.95, y: 1.27, z: -0.01}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayerID: -879824367
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2566532733954593731, guid: 6339ef35e65765b48821796faf3a2970,
+  m_Sprite: {fileID: -6853945449968116542, guid: d809c1067d5af1f4fae702646a767d61,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -101,7 +101,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.291338, y: 3.6399999}
+    oldSize: {x: 7.35, y: 3.62}
     newSize: {x: 2, y: 0.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -127,7 +127,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.291338, y: 3.6399999}
+    oldSize: {x: 7.35, y: 3.62}
     newSize: {x: 2, y: 0.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

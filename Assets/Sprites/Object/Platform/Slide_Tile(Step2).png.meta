@@ -1,0 +1,382 @@
+fileFormatVersion: 2
+guid: 8e3600f7ef5075746918757bacebe760
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3134834861381057582
+    second: Slide_Tile(Step2)_4
+  - first:
+      213: -114514584085161989
+    second: Slide_Tile(Step2)_5
+  - first:
+      213: 4476309636304727093
+    second: Slide_Tile(Step2)_6
+  - first:
+      213: 8286452112398042668
+    second: Slide_Tile(Step2)_7
+  - first:
+      213: -4876464069470329097
+    second: Slide_Tile(Step2)_8
+  - first:
+      213: 4632941025070784022
+    second: Slide_Tile(Step2)_9
+  - first:
+      213: 5350233217855304889
+    second: Slide_Tile(Step2)_10
+  - first:
+      213: -1784986878778058161
+    second: Slide_Tile(Step2)_11
+  - first:
+      213: -7629113107042918871
+    second: Slide_Tile(Step2)_12
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 84
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Slide_Tile(Step2)_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 337
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -84, y: 45}
+        - {x: -84, y: -84}
+        - {x: 84, y: -84}
+        - {x: 84, y: 45}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d30fd97d44de74d0800000000000000
+      internalID: -3134834861381057582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_Tile(Step2)_5
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 337
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -84, y: 45}
+        - {x: -84, y: -84}
+        - {x: 84, y: -84}
+        - {x: 84, y: 45}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf7900ea799296ef0800000000000000
+      internalID: -114514584085161989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_Tile(Step2)_6
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 337
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -84, y: 45}
+        - {x: -84, y: -84}
+        - {x: 84, y: -84}
+        - {x: 84, y: 45}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ce990d5eb0f1e30800000000000000
+      internalID: 4476309636304727093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_Tile(Step2)_7
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 337
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -84, y: 45}
+        - {x: -84, y: -84}
+        - {x: 84, y: -84}
+        - {x: 84, y: -61}
+        - {x: -58, y: 45}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2645cfea446ff270800000000000000
+      internalID: 8286452112398042668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_Tile(Step2)_8
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 337
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -53, y: -84}
+        - {x: -84, y: -61}
+        - {x: -84, y: -84}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f6e343f3c1535cb0800000000000000
+      internalID: -4876464069470329097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_Tile(Step2)_9
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 169
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -84, y: 84}
+        - {x: -84, y: -84}
+        - {x: 84, y: -84}
+        - {x: 84, y: 84}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61e9da0e0538b4040800000000000000
+      internalID: 4632941025070784022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_Tile(Step2)_10
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 169
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -84, y: 84}
+        - {x: -84, y: -84}
+        - {x: 84, y: -84}
+        - {x: 84, y: 84}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b4b2cfc3c8df3a40800000000000000
+      internalID: 5350233217855304889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_Tile(Step2)_11
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 169
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: -84, y: 84}
+        - {x: -84, y: -84}
+        - {x: 84, y: -84}
+        - {x: 84, y: 84}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4a53b914e37a37e0800000000000000
+      internalID: -1784986878778058161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Slide_Tile(Step2)_12
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 169
+        width: 168
+        height: 168
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape:
+      - - {x: 6, y: 45}
+        - {x: -53, y: 84}
+        - {x: -84, y: 84}
+        - {x: -84, y: -84}
+        - {x: 84, y: -84}
+        - {x: 84, y: 45}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e1e67cc02ff1690800000000000000
+      internalID: -7629113107042918871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 24e3880aa8db01d4a9b6643fa03298c5
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
