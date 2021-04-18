@@ -4,17 +4,36 @@ using UnityEngine;
 
 public class Inventory : MonoBehaviour
 {
-    //public List<Item> items = new List<Item>();
-    public Item items;
+    [SerializeField]
+    private Item_Scriptable item;
 
-    public void getItem(Item item)
-    {
-        items = item;
-        Debug.Log("You got " + item.name);
+    //Code for Item_Scriptable Class
+    public void getItem(Item_Scriptable item) {
+        this.item = item;
+        Debug.Log("You Got " + item.objectName);
     }
 
-    public void putDownItem(Item item)
+    public void dropItem()
     {
-        items = null;
+        if (item != null)
+        {
+            Vector3 pos = GameObject.FindGameObjectWithTag("Player").transform.position;
+            pos.x += 1f;
+            Instantiate(item.prefab, pos, Quaternion.identity);
+            item = null;
+        }
+        else
+        {            
+            Debug.Log("You don't have any items");
+        }
     }
+
+    
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.T))
+        {
+            dropItem();
+        }
+    }   
 }

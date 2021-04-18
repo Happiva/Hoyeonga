@@ -7,35 +7,31 @@ public class Interactable : MonoBehaviour
 {
     private bool inRange;
     public UnityEvent interactAction;
+    public GameObject collider;
 
     public enum InteractionType { ITEM, EVENT };
 
     public InteractionType type;
-
-    void Start()
-    {
-        
-    }
     
     void Update()
     {
-        if (inRange)
+        if (collider.GetComponent<PlayerDetect>().getInRange())
         {            
             if (Input.GetButtonDown("Interaction"))
             {
                 //이벤트 실행
-                //interactAction.Invoke();
                 Debug.Log("Interact");
                 Interaction();
             }
         }
     }
 
+    /*
     void OnTriggerEnter2D (Collider2D col)
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            //Debug.Log("In Range");
+            Debug.Log("In range");
             inRange = true;
         }
     }
@@ -44,10 +40,11 @@ public class Interactable : MonoBehaviour
     {
         if (col.gameObject.CompareTag("Player"))
         {
-            //Debug.Log("Out Range");
+            Debug.Log("Out range");
             inRange = false;
         }
     }
+    */
 
     void Interaction()
     {

@@ -7,9 +7,10 @@ public class PlayerController : MonoBehaviour
 
     public float moveSpeed;
     public float jumpForce;
-
+    
     private float defaultMoveSpeed = 6f;
-    private bool sitDown;
+
+    [SerializeField] private bool sitDown;
     private float movement;
 
     private Rigidbody2D rigid;
@@ -110,8 +111,16 @@ public class PlayerController : MonoBehaviour
 
         rigid.AddForce(Vector2.right * movement, ForceMode2D.Impulse);
 
-        if (rigid.velocity.x > moveSpeed) rigid.velocity = new Vector2(moveSpeed, rigid.velocity.y);
-        else if (rigid.velocity.x < moveSpeed * (-1)) rigid.velocity = new Vector2(moveSpeed * (-1), rigid.velocity.y);
+        if (rigid.velocity.x > moveSpeed)
+        {
+            rigid.velocity = new Vector2(moveSpeed, rigid.velocity.y);
+            attackBox.transform.localPosition = new Vector3(1, 0, 0);
+        }
+        else if (rigid.velocity.x < moveSpeed * (-1))
+        {
+            rigid.velocity = new Vector2(moveSpeed * (-1), rigid.velocity.y);
+            attackBox.transform.localPosition = new Vector3(-1, 0, 0);
+        }
         
     }
 
@@ -124,11 +133,13 @@ public class PlayerController : MonoBehaviour
         {
             healthCollider.GetComponent<Collider2D>().enabled = false;
             moveSpeed = defaultMoveSpeed / 2;
+            animator.SetBool("isSitting", true);
         }
         else
         {
             healthCollider.GetComponent<Collider2D>().enabled = true;
             moveSpeed = defaultMoveSpeed;
+            animator.SetBool("isSitting", false);
         }
     }
 

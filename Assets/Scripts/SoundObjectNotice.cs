@@ -9,27 +9,31 @@ public class SoundObjectNotice : MonoBehaviour
     [SerializeField]
     private bool playerEnter;
     private float distance;
+    private float angle;
+
+    private Renderer renderer;
 
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        renderer = GetComponent<Renderer>();
     }
 
     void Update()
     {
         if (playerEnter) {
             distance = Vector2.Distance(player.transform.position, transform.position);
+            angle = Mathf.Atan2(player.transform.position.y - transform.position.y, player.transform.position.x - transform.position.x) * Mathf.Rad2Deg;
 
-            Debug.Log(distance);
-
-            GetComponent<AudioSource>().Play();
+            //Debug.Log(distance);
+            //Debug.Log(angle);
+            Debug.Log(renderer.isVisible);
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other) {
         if (other.tag == "Player")
         {
-            Debug.Log("Player Enter");
             playerEnter = true;
         }
     }
@@ -38,7 +42,6 @@ public class SoundObjectNotice : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-            Debug.Log("Player Out");
             playerEnter = false;
         }
     }
