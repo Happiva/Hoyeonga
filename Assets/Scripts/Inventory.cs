@@ -7,10 +7,16 @@ public class Inventory : MonoBehaviour
     [SerializeField]
     private Item_Scriptable item;
 
-    //Code for Item_Scriptable Class
-    public void getItem(Item_Scriptable item) {
-        this.item = item;
-        Debug.Log("You Got " + item.objectName);
+    public bool getItem(Item_Scriptable item)
+    {
+        if (this.item == null)
+        {
+            this.item = item;
+            Debug.Log("You Got " + item.objectName);
+
+            return true;
+        }
+        else return false;
     }
 
     public void dropItem()

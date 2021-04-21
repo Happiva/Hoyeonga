@@ -27,7 +27,7 @@ public class SoundObjectNotice : MonoBehaviour
 
             //Debug.Log(distance);
             //Debug.Log(angle);
-            Debug.Log(renderer.isVisible);
+            //Debug.Log(renderer.isVisible);
         }
     }
 

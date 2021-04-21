@@ -10,9 +10,8 @@ public class Item : MonoBehaviour
     {
         Inventory inven = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
 
-        inven.getItem(obj);
-
-        DestroySelf();
+        if (inven.getItem(obj))
+            DestroySelf();
     }
 
     private void DestroySelf()

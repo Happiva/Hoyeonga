@@ -25,6 +25,7 @@ public class PlayerController : MonoBehaviour
     public LayerMask platformLayer;
 
     private Animator animator;
+    public GameManager gameManager;
     
     void Start()
     {
@@ -67,7 +68,7 @@ public class PlayerController : MonoBehaviour
         //아이템
         if (Input.GetButtonDown("Interaction"))
         {            
-            //Debug.Log(GetComponent<Inventory>().items.name);
+            
         }
 
         //낙하 확인        
@@ -93,15 +94,19 @@ public class PlayerController : MonoBehaviour
     void FixedUpdate()
     {
 
-        PlayerMove();
+        if (gameManager.canAction)
+        { 
+            PlayerMove();
                
-        PlayerSit();
+            PlayerSit();
 
-        //공격
-        if (Input.GetButtonDown("Attack")) {
-            PlayerAttack();            
+            //공격
+            if (Input.GetButtonDown("Attack")) {
+                PlayerAttack();            
+            }
         }
     }
+        
 
     void PlayerMove()
     {
@@ -124,9 +129,7 @@ public class PlayerController : MonoBehaviour
         
     }
 
-
     //Player의 앉기 동작
-    //후에 애니메이션 재생 코드 입력 예정
     void PlayerSit()
     {
         if (sitDown)
@@ -146,6 +149,8 @@ public class PlayerController : MonoBehaviour
     //Player 공격
     void PlayerAttack()
     {
+        animator.SetTrigger("isAttack");
+
         Collider2D [] hitEnemies = Physics2D.OverlapCircleAll(attackBox.position, attackRange, enemyLayer);
 
         foreach (Collider2D enemy in hitEnemies)
