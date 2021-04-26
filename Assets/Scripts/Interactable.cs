@@ -20,6 +20,10 @@ public class Interactable : MonoBehaviour
             case InteractionType.ITEM:
                 GetComponent<Item>().pickUpItem();
                 return;
+
+            case InteractionType.NPC:
+                Debug.Log(GetComponent<NPCObject>().npcName);
+                return;
         }
     }
 }

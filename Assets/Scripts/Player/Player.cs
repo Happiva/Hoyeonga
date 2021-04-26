@@ -12,7 +12,7 @@ public class Player : MonoBehaviour
 
     public bool playerDead;
 
-    public SpriteRenderer spriteRenderer;
+    private SpriteRenderer spriteRenderer;
     private GameManager gameManager;
 
     void Start()
@@ -42,7 +42,6 @@ public class Player : MonoBehaviour
         if (playerDead)
         {
             Debug.Log("Game Over!");
-            //Destroy(this.gameObject);
 
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         }

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-
+    [Header("Player Movement")]
     public float moveSpeed;
     public float jumpForce;
     
@@ -12,13 +12,14 @@ public class PlayerController : MonoBehaviour
 
     [SerializeField] private bool sitDown;
     private float movement;
-
+    
     private Rigidbody2D rigid;
     private BoxCollider2D boxCollider;
     private PlayerHeadCheck headCheck;
 
     public Collider2D healthCollider;
 
+    [Header("Player Attack Component")]
     public Transform attackBox;
     public float attackRange = 0.5f;
     public LayerMask enemyLayer;
@@ -26,6 +27,7 @@ public class PlayerController : MonoBehaviour
 
     private Animator animator;
     public GameManager gameManager;
+    public Sprite sitSprite;
     
     void Start()
     {
@@ -48,7 +50,7 @@ public class PlayerController : MonoBehaviour
         }
 
         //점프        
-        if (Input.GetButtonDown("Jump") && IsGrounded())
+        if (Input.GetButtonDown("Jump") && IsGrounded() && gameManager.canAction)
         {
             rigid.AddForce(Vector2.up * jumpForce, ForceMode2D.Impulse);
             animator.SetBool("isJumping", true);
@@ -56,7 +58,7 @@ public class PlayerController : MonoBehaviour
         }
 
         //앉기
-        if (Input.GetButton("Sit") && IsGrounded())
+        if (Input.GetButton("Sit") && IsGrounded() && gameManager.canAction)
         {            
             sitDown = true;
         }
@@ -65,11 +67,16 @@ public class PlayerController : MonoBehaviour
             sitDown = false;
         }
 
-        //아이템
-        if (Input.GetButtonDown("Interaction"))
-        {            
-            
+        //히트 박스 좌우 전환
+        if (Input.GetAxisRaw("Horizontal") > 0)
+        {
+            attackBox.transform.localPosition = new Vector3(1, 0, 0);
         }
+        else if (Input.GetAxisRaw("Horizontal") < 0)
+        {
+            attackBox.transform.localPosition = new Vector3(-1, 0, 0);
+        }
+
 
         //낙하 확인        
         if (IsGrounded())
@@ -93,7 +100,6 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-
         if (gameManager.canAction)
         { 
             PlayerMove();
@@ -101,10 +107,12 @@ public class PlayerController : MonoBehaviour
             PlayerSit();
 
             //공격
-            if (Input.GetButtonDown("Attack")) {
+            if (Input.GetButtonDown("Attack"))
+            {
                 PlayerAttack();            
             }
         }
+
     }
         
 
@@ -118,13 +126,11 @@ public class PlayerController : MonoBehaviour
 
         if (rigid.velocity.x > moveSpeed)
         {
-            rigid.velocity = new Vector2(moveSpeed, rigid.velocity.y);
-            attackBox.transform.localPosition = new Vector3(1, 0, 0);
+            rigid.velocity = new Vector2(moveSpeed, rigid.velocity.y);            
         }
         else if (rigid.velocity.x < moveSpeed * (-1))
         {
-            rigid.velocity = new Vector2(moveSpeed * (-1), rigid.velocity.y);
-            attackBox.transform.localPosition = new Vector3(-1, 0, 0);
+            rigid.velocity = new Vector2(moveSpeed * (-1), rigid.velocity.y);            
         }
         
     }
@@ -135,13 +141,15 @@ public class PlayerController : MonoBehaviour
         if (sitDown)
         {
             healthCollider.GetComponent<Collider2D>().enabled = false;
-            moveSpeed = defaultMoveSpeed / 2;
+            moveSpeed = defaultMoveSpeed / 2;            
+
             animator.SetBool("isSitting", true);
         }
         else
         {
             healthCollider.GetComponent<Collider2D>().enabled = true;
-            moveSpeed = defaultMoveSpeed;
+            moveSpeed = defaultMoveSpeed;            
+
             animator.SetBool("isSitting", false);
         }
     }
@@ -155,6 +163,8 @@ public class PlayerController : MonoBehaviour
 
         foreach (Collider2D enemy in hitEnemies)
         {
+            Debug.Log(enemy.gameObject.name);
+
             if (enemy.gameObject.layer == 10) //공격한 것이 파괴가능한 물체일 때
             {
                 enemy.GetComponent<DestructableObstacle>().Damage(1);
@@ -202,5 +212,10 @@ public class PlayerController : MonoBehaviour
             animator.SetBool("isJumping", false);
         }
     }
-   
+
+    public void ControlPlayerAction(bool flag)
+    {
+        gameManager.canAction = flag;
+    }
+
 }
