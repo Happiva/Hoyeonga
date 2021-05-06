@@ -7,6 +7,8 @@ public class CheckInteraction : MonoBehaviour
     [SerializeField] private float range;
 
     public LayerMask interactLayer;
+    public Inventory inventory;
+    public QuestManager questManager;
 
     void Update()
     {
@@ -29,8 +31,20 @@ public class CheckInteraction : MonoBehaviour
             if (Input.GetButtonDown("Interaction"))
             {
                 hit.gameObject.GetComponent<Interactable>().Interaction();
+
+                if (hit.gameObject.GetComponent<Interactable>().type == Interactable.InteractionType.NPC)
+                {
+                    questManager.CheckQuestProcess(hit.gameObject.GetComponent<NPCObject>().npcId);
+                }                
             }
-        }                    
+        }
+        else
+        {
+            if (Input.GetButtonDown("Interaction"))
+            {
+                inventory.DropItem();
+            }
+        }
     }
 
     void OnDrawGizmosSelected()

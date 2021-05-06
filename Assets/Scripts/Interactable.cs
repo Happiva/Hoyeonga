@@ -13,17 +13,34 @@ public class Interactable : MonoBehaviour
     public InteractionType type;
     
 
+    public int Interaction()
+    {
+        switch (type)
+        {
+            case InteractionType.ITEM:
+                GetComponent<Item>().PickUpItem();
+                return GetComponent<Item>().obj.itemId;
+
+            case InteractionType.NPC:
+                //Debug.Log(GetComponent<NPCObject>().npcName);
+                return GetComponent<NPCObject>().npcId;
+        }
+        return 0;
+    }
+
+    /*
     public void Interaction()
     {
         switch (type)
         {
             case InteractionType.ITEM:
-                GetComponent<Item>().pickUpItem();
+                GetComponent<Item>().PickUpItem();
                 return;
 
             case InteractionType.NPC:
-                Debug.Log(GetComponent<NPCObject>().npcName);
+                //Debug.Log(GetComponent<NPCObject>().npcName);
                 return;
         }
     }
+    */
 }

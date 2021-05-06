@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6160e8c0fe4612842ba6fca007c8dcdd, type: 3}
   m_Name: Branch_Scriptable
   m_EditorClassIdentifier: 
+  itemId: 10001
   objectName: Tree Stick
   prefab: {fileID: 7472588322246649144, guid: 0efab9ae003a1774e95aba528513525a, type: 3}
   itemType: 1

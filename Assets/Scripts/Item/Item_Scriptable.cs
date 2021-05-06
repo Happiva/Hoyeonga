@@ -6,8 +6,8 @@ using UnityEngine;
 
 public class Item_Scriptable : ScriptableObject {
 
+    public int itemId;
     public string objectName;
-    //public Sprite sprite;
     public GameObject prefab;
 
     public enum ItemType

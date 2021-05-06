@@ -6,6 +6,7 @@ public class PlayerController : MonoBehaviour
 {
     [Header("Player Movement")]
     public float moveSpeed;
+    public float jumpMoveSpeed;
     public float jumpForce;
     
     private float defaultMoveSpeed = 6f;
@@ -37,12 +38,13 @@ public class PlayerController : MonoBehaviour
         animator = GetComponent<Animator>();
 
         moveSpeed = defaultMoveSpeed;
+        jumpMoveSpeed = 3f;
 
         sitDown = false;
     }
 
     void Update()
-    {          
+    {
         //미끄럼 방지
         if (Input.GetButtonUp("Horizontal"))
         {
@@ -77,7 +79,6 @@ public class PlayerController : MonoBehaviour
             attackBox.transform.localPosition = new Vector3(-1, 0, 0);
         }
 
-
         //낙하 확인        
         if (IsGrounded())
         {
@@ -87,7 +88,7 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            moveSpeed = defaultMoveSpeed / 2;
+            moveSpeed = jumpMoveSpeed;
             if (rigid.velocity.y < 0)
             {
                 animator.SetBool("isLanding", true);
@@ -112,9 +113,7 @@ public class PlayerController : MonoBehaviour
                 PlayerAttack();            
             }
         }
-
-    }
-        
+    }        
 
     void PlayerMove()
     {
@@ -131,8 +130,7 @@ public class PlayerController : MonoBehaviour
         else if (rigid.velocity.x < moveSpeed * (-1))
         {
             rigid.velocity = new Vector2(moveSpeed * (-1), rigid.velocity.y);            
-        }
-        
+        }        
     }
 
     //Player의 앉기 동작
@@ -208,7 +206,6 @@ public class PlayerController : MonoBehaviour
     {
         if (col.gameObject.tag == ("Ground"))
         {
-            //animator.SetBool("isLanding", false);
             animator.SetBool("isJumping", false);
         }
     }

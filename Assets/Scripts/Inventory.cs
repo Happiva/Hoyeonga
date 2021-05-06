@@ -7,19 +7,18 @@ public class Inventory : MonoBehaviour
     [SerializeField]
     private Item_Scriptable item;
 
-    public bool getItem(Item_Scriptable item)
+    public bool GetItem(Item_Scriptable item)
     {
         if (this.item == null)
         {
-            this.item = item;
-            Debug.Log("You Got " + item.objectName);
+            this.item = item;            
 
             return true;
         }
         else return false;
     }
 
-    public void dropItem()
+    public void DropItem()
     {
         if (item != null)
         {
@@ -28,18 +27,10 @@ public class Inventory : MonoBehaviour
             Instantiate(item.prefab, pos, Quaternion.identity);
             item = null;
         }
-        else
-        {            
-            Debug.Log("You don't have any items");
-        }
     }
 
-    
-    private void Update()
+    public int GetItemId()
     {
-        if (Input.GetKeyDown(KeyCode.T))
-        {
-            dropItem();
-        }
-    }   
+        return item.itemId;
+    }
 }

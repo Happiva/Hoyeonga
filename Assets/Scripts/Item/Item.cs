@@ -6,11 +6,11 @@ public class Item : MonoBehaviour
 {
     public Item_Scriptable obj;
 
-    public void pickUpItem()
+    public void PickUpItem()
     {
         Inventory inven = GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>();
 
-        if (inven.getItem(obj))
+        if (inven.GetItem(obj))
             DestroySelf();
     }
 

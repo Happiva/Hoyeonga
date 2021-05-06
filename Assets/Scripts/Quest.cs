@@ -3,23 +3,36 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [System.Serializable]
-public class Quest
+
+public enum Prize
 {
-    public enum Prize
-    { 
-        HEALTH,
-        EVENT,
-        ITEM,
-    }
+    HEALTH,
+    EVENT,
+    ITEM,
+}
 
-    public enum Goal
-    { 
-        ITEM,
-        INTERACTION,
-    }
-
+public enum Goal
+{
+    ITEM,
+    INTERACTION,
+}
+public class Quest
+{   
     public Prize prize;
     public Goal goal;
 
-    public Item_Scriptable prizeItem;
+    public int questStartId;
+
+    public int goalId;
+    public int prizeItemId;
+
+    public Quest(Prize prize, Goal goal, int questStartId, int goalId, int prizeItemId)
+    {
+        this.prize = prize;
+        this.goal = goal;
+        this.questStartId = questStartId;
+        this.goalId = goalId;
+        this.prizeItemId = prizeItemId;
+    }
 }
+

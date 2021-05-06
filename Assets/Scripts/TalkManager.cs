@@ -14,8 +14,7 @@ public class TalkManager : MonoBehaviour
 
     private void GenerateData()
     {
-        talkData.Add(1, new string[] { "예시 NPC" });
-        talkData.Add(0, new string[] { "담비가 걸려있다." });
+        talkData.Add(1, new string[] { "예시 NPC" });        
     }
 
     public string GetTalk(int id, int talkIndex)
