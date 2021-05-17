@@ -1,0 +1,1052 @@
+fileFormatVersion: 2
+guid: aff2b4069eb8d1641b87450a4d9d0c6d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -360140570672466854
+    second: Dambi_Tail_0
+  - first:
+      213: 7670570539555914978
+    second: Dambi_Tail_1
+  - first:
+      213: -7774685220472104539
+    second: Dambi_Tail_2
+  - first:
+      213: 4327664434036482069
+    second: Dambi_Tail_3
+  - first:
+      213: -6931529581860566311
+    second: Dambi_Tail_4
+  - first:
+      213: -4816843525015028121
+    second: Dambi_Tail_5
+  - first:
+      213: 4258099024359199359
+    second: Dambi_Tail_6
+  - first:
+      213: -5767801995765633576
+    second: Dambi_Tail_7
+  - first:
+      213: 5062333743238766379
+    second: Dambi_Tail_8
+  - first:
+      213: -6624525506170743352
+    second: Dambi_Tail_9
+  - first:
+      213: -4827245688444005462
+    second: Dambi_Tail_10
+  - first:
+      213: -872873894536067867
+    second: Dambi_Tail_11
+  - first:
+      213: -5995453625415328842
+    second: Dambi_Tail_12
+  - first:
+      213: 6087007582715855719
+    second: Dambi_Tail_13
+  - first:
+      213: 7808064548036633947
+    second: Dambi_Tail_14
+  - first:
+      213: -784404324876707583
+    second: Dambi_Tail_15
+  - first:
+      213: 5519369682498606570
+    second: Dambi_Tail_16
+  - first:
+      213: 6773062541178329387
+    second: Dambi_Tail_17
+  - first:
+      213: 1137264231144439970
+    second: Dambi_Tail_18
+  - first:
+      213: 3132726008962379060
+    second: Dambi_Tail_19
+  - first:
+      213: 899530092174392953
+    second: Dambi_Tail_20
+  - first:
+      213: -267007530273091433
+    second: Dambi_Tail_21
+  - first:
+      213: 6329308742032713425
+    second: Dambi_Tail_22
+  - first:
+      213: -2848303625454392060
+    second: Dambi_Tail_23
+  - first:
+      213: 3107391066130583379
+    second: Dambi_Tail_24
+  - first:
+      213: -2989904813504397583
+    second: Dambi_Tail_25
+  - first:
+      213: -2798823705857125561
+    second: Dambi_Tail_26
+  - first:
+      213: -6699337065143214154
+    second: Dambi_Tail_27
+  - first:
+      213: -6739145008624547064
+    second: Dambi_Tail_28
+  - first:
+      213: 4907427746887223545
+    second: Dambi_Tail_29
+  - first:
+      213: 2153921623612516439
+    second: Dambi_Tail_30
+  - first:
+      213: 6073614097508384548
+    second: Dambi_Tail_31
+  - first:
+      213: -7986776743419940005
+    second: Dambi_Tail_32
+  - first:
+      213: -4803024538721350070
+    second: Dambi_Tail_33
+  - first:
+      213: -4733316417827516020
+    second: Dambi_Tail_34
+  - first:
+      213: -7445243588849376788
+    second: Dambi_Tail_35
+  - first:
+      213: -1752165327142061111
+    second: Dambi_Tail_36
+  - first:
+      213: 7758300627676182666
+    second: Dambi_Tail_37
+  - first:
+      213: 6330217914288777594
+    second: Dambi_Tail_38
+  - first:
+      213: -5177324417016790154
+    second: Dambi_Tail_39
+  - first:
+      213: -735658516132958101
+    second: Dambi_Tail_40
+  - first:
+      213: -4135356068025944616
+    second: Dambi_Tail_41
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dambi_Tail_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 651
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a547cdf1f06800bf0800000000000000
+      internalID: -360140570672466854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_1
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 651
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e48ecae347537a60800000000000000
+      internalID: 7670570539555914978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_2
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 651
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a9d749ebf4ca1490800000000000000
+      internalID: -7774685220472104539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_3
+      rect:
+        serializedVersion: 2
+        x: 521
+        y: 651
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51026d1bfd3fe0c30800000000000000
+      internalID: 4327664434036482069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_4
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 651
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dac613f1924ecf90800000000000000
+      internalID: -6931529581860566311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_5
+      rect:
+        serializedVersion: 2
+        x: 869
+        y: 651
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76eb6d0b552272db0800000000000000
+      internalID: -4816843525015028121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_6
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 651
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f721e55908ec71b30800000000000000
+      internalID: 4258099024359199359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 513
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dda99bd4a6a4ffa0800000000000000
+      internalID: -5767801995765633576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_8
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 513
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2f5834d7b5014640800000000000000
+      internalID: 5062333743238766379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_9
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 513
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c59d2f7625f014a0800000000000000
+      internalID: -6624525506170743352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_10
+      rect:
+        serializedVersion: 2
+        x: 513
+        y: 513
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa352c84f9d220db0800000000000000
+      internalID: -4827245688444005462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_11
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 513
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e4477e41dde2e3f0800000000000000
+      internalID: -872873894536067867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_12
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 513
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bb9ac561bedbcca0800000000000000
+      internalID: -5995453625415328842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_13
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 513
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76343e86525697450800000000000000
+      internalID: 6087007582715855719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b556b096651db5c60800000000000000
+      internalID: 7808064548036633947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_15
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 374
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10991772c6c3d15f0800000000000000
+      internalID: -784404324876707583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_16
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 374
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae5d36dbb7db89c40800000000000000
+      internalID: 5519369682498606570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_17
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 374
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b295078fe70cefd50800000000000000
+      internalID: 6773062541178329387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_18
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 374
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a04f11facf58cf00800000000000000
+      internalID: 1137264231144439970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_19
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 374
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43d64de05bda97b20800000000000000
+      internalID: 3132726008962379060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_20
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 374
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97e34d85ad5cb7c00800000000000000
+      internalID: 899530092174392953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 236
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790d7bdd0166b4cf0800000000000000
+      internalID: -267007530273091433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_22
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 236
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d662aa44c836d750800000000000000
+      internalID: 6329308742032713425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_23
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 236
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40d655091fac878d0800000000000000
+      internalID: -2848303625454392060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_24
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 236
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35f8fe206bbaf1b20800000000000000
+      internalID: 3107391066130583379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_25
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 236
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fef6dec969b186d0800000000000000
+      internalID: -2989904813504397583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_26
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 236
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74391771ba49829d0800000000000000
+      internalID: -2798823705857125561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_27
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 236
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bfd7811f6c2703a0800000000000000
+      internalID: -6699337065143214154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 99
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b4617f15fb972a0800000000000000
+      internalID: -6739145008624547064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_29
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 99
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8cb1ef88faa1440800000000000000
+      internalID: 4907427746887223545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_30
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 99
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 758e4710e4444ed10800000000000000
+      internalID: 2153921623612516439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_31
+      rect:
+        serializedVersion: 2
+        x: 507
+        y: 99
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42fbac0a7dfc94450800000000000000
+      internalID: 6073614097508384548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_32
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 99
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b537a1c1ed4492190800000000000000
+      internalID: -7986776743419940005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_33
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 99
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4e870a21aa385db0800000000000000
+      internalID: -4803024538721350070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_34
+      rect:
+        serializedVersion: 2
+        x: 1037
+        y: 99
+        width: 170
+        height: 130
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81ddd1dbc1ef4eb0800000000000000
+      internalID: -4733316417827516020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 172
+        height: 85
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1e06c076e2da890800000000000000
+      internalID: -7445243588849376788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_36
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 1
+        width: 172
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cbf0f71bee0fa7e0800000000000000
+      internalID: -1752165327142061111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Tail_37
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0
+        width: 174
+        height: 71
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a88345dc0550bab60800000000000000
+      internalID: 7758300627676182666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 8cf172b33ef77c34cb16b6a9a71e0f40
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

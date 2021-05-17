@@ -1,0 +1,608 @@
+fileFormatVersion: 2
+guid: 24f58f896f1485a4d94aa01c2f4dcdcc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6657626470796287980
+    second: Dambi_Blink_0
+  - first:
+      213: -4374231121046593837
+    second: Dambi_Blink_1
+  - first:
+      213: -1212472927913870269
+    second: Dambi_Blink_2
+  - first:
+      213: -3743870834222930161
+    second: Dambi_Blink_3
+  - first:
+      213: 5318206081663689554
+    second: Dambi_Blink_4
+  - first:
+      213: 2050865871850387531
+    second: Dambi_Blink_5
+  - first:
+      213: 8257373202515035725
+    second: Dambi_Blink_6
+  - first:
+      213: 7528046209797820101
+    second: Dambi_Blink_7
+  - first:
+      213: -2048289851382036447
+    second: Dambi_Blink_8
+  - first:
+      213: -8050956992313552367
+    second: Dambi_Blink_9
+  - first:
+      213: 7425848685269974516
+    second: Dambi_Blink_10
+  - first:
+      213: 360885512953227221
+    second: Dambi_Blink_11
+  - first:
+      213: 4129775709779335923
+    second: Dambi_Blink_12
+  - first:
+      213: 5301458059405285991
+    second: Dambi_Blink_13
+  - first:
+      213: -6671862471512253465
+    second: Dambi_Blink_14
+  - first:
+      213: 4398208390699931560
+    second: Dambi_Blink_15
+  - first:
+      213: 1507569598487299550
+    second: Dambi_Blink_16
+  - first:
+      213: 6814038119450834308
+    second: Dambi_Blink_17
+  - first:
+      213: -2912762841283641941
+    second: Dambi_Blink_18
+  - first:
+      213: 4628282379887871004
+    second: Dambi_Blink_19
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dambi_Blink_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 260.6667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cefdc076004a46c50800000000000000
+      internalID: 6657626470796287980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_1
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 260.6667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de1f8898fb9b43c0800000000000000
+      internalID: -4374231121046593837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_2
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 260.6667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34c7ae7cb4e6c2fe0800000000000000
+      internalID: -1212472927913870269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_3
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 260.6667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f076239ef491b0cc0800000000000000
+      internalID: -3743870834222930161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_4
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 260.6667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253e2e311401ec940800000000000000
+      internalID: 5318206081663689554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_5
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 260.6667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b483d9df4a3267c10800000000000000
+      internalID: 2050865871850387531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_6
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 260.6667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d460db1ad25189270800000000000000
+      internalID: 8257373202515035725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 130.66667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce89bb742ef87860800000000000000
+      internalID: 7528046209797820101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_8
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 130.66667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12806538b330393e0800000000000000
+      internalID: -2048289851382036447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_9
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 130.66667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11214337541454090800000000000000
+      internalID: -8050956992313552367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_10
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 130.66667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fd7151190aed0760800000000000000
+      internalID: 7425848685269974516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_11
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 130.66667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d76924467f120500800000000000000
+      internalID: 360885512953227221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_12
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 130.66667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fa1f67a029ef4930800000000000000
+      internalID: 4129775709779335923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_13
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 130.66667
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76adb764400929940800000000000000
+      internalID: 5301458059405285991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.66667175
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eb90436e68c863a0800000000000000
+      internalID: -6671862471512253465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_15
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 0.66667175
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a7dfc78a33990d30800000000000000
+      internalID: 4398208390699931560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_16
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 0.66667175
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed58308ff86fbe410800000000000000
+      internalID: 1507569598487299550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_17
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 0.66667175
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48576db3193509e50800000000000000
+      internalID: 6814038119450834308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_18
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 0.66667175
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: badb45ad0a9c397d0800000000000000
+      internalID: -2912762841283641941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dambi_Blink_19
+      rect:
+        serializedVersion: 2
+        x: 860
+        y: 0.66667175
+        width: 172.42857
+        height: 130.33333
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c148a658d46fa3040800000000000000
+      internalID: 4628282379887871004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 78d138e2d9979f44a9a6afdb708f6f3d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
