@@ -23,7 +23,7 @@ public class Trap : MonoBehaviour
 
                 case Trap_Type.SPIKE:
                     GetComponent<Animator>().SetTrigger("isCaught");
-                    col.gameObject.GetComponent<PlayerController>().ControlPlayerAction(false);
+                    //col.gameObject.GetComponent<PlayerController>().ControlPlayerAction(false);
                     break;
             }            
         }

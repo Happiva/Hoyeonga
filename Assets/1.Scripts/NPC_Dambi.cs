@@ -13,7 +13,10 @@ public class NPC_Dambi : MonoBehaviour
     private PlayableDirector director;
 
     private bool isTrap;
+    private bool movingLog;
     public GameObject log;
+
+    private Vector3 offset;
 
     void Start()
     {
@@ -22,6 +25,7 @@ public class NPC_Dambi : MonoBehaviour
         director = GetComponent<PlayableDirector>();
 
         isTrap = true;
+        movingLog = false;
     }
 
     
@@ -30,7 +34,13 @@ public class NPC_Dambi : MonoBehaviour
         if (!isTrap)
         { 
             animator.SetBool("isFree", true);
-        }        
+        }
+        
+        if (movingLog)
+        {
+            transform.localPosition = offset;
+        }
+        
     }
 
     /*
@@ -63,5 +73,13 @@ public class NPC_Dambi : MonoBehaviour
     public void PushLog()
     {
         this.transform.parent = log.transform;
+        movingLog = true;
+        animator.SetBool("isMoving", true);
+
+        //offset = log.transform.position - this.transform.position;
+        offset = this.transform.localPosition;
+
+        log.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+        log.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 }

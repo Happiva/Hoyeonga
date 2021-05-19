@@ -8,6 +8,7 @@ TagManager:
   - GameManager
   - Object
   - NPC
+  - Portal
   layers:
   - Default
   - TransparentFX
@@ -63,7 +64,7 @@ TagManager:
   - name: Player
     uniqueID: 1618949717
     locked: 0
-  - name: CanHideObject
+  - name: Forward_Object
     uniqueID: 387185807
     locked: 0
   - name: Foreground
