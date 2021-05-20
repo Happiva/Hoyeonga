@@ -8,7 +8,7 @@ public class Interactable : MonoBehaviour
     private bool inRange;
     public UnityEvent interactAction;
 
-    public enum InteractionType { ITEM, EVENT, NPC };
+    public enum InteractionType { ITEM, EVENT, NPC, TRAP };
 
     public InteractionType type;
     
@@ -21,8 +21,12 @@ public class Interactable : MonoBehaviour
                 GetComponent<Item>().PickUpItem();
                 return GetComponent<Item>().obj.itemId;
 
-            case InteractionType.NPC:                
+            case InteractionType.NPC:
                 return GetComponent<NPCObject>().npcId;
+
+            case InteractionType.TRAP:
+                GetComponent<Trap>().ReleaseTrap();
+                return -1;
         }
         return 0;
     }

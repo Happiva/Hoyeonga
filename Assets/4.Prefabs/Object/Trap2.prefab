@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 1164135394983488922}
   - component: {fileID: 1164135394983488920}
   - component: {fileID: 1976094657}
+  - component: {fileID: 1401620392670193710}
   m_Layer: 15
   m_Name: Trap2
   m_TagString: Object
@@ -71,7 +72,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -879824367
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: -3891241472931674333, guid: 04eb450d4d1ecb742a574f97daf819de,
     type: 3}
@@ -144,3 +145,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trapType: 1
   damageAmount: 0
+--- !u!114 &1401620392670193710
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164135394983488996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1bbc8f7e3182c0d4cad78469146daeb4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactAction:
+    m_PersistentCalls:
+      m_Calls: []
+  type: 3

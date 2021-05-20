@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 82e17e165b4ebba4c98d55fe82817aa2
+guid: 0fc6fe2141baa8941bac7606ac0b19bd
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -144,12 +144,12 @@ TextureImporter:
       name: Jail_Ani_0
       rect:
         serializedVersion: 2
-        x: 43
+        x: 55
         y: 0
-        width: 719
-        height: 1500
+        width: 710
+        height: 1501
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: Jail_Ani_1
       rect:
         serializedVersion: 2
-        x: 751
+        x: 760
         y: 0
-        width: 719
-        height: 1500
+        width: 710
+        height: 1501
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -186,12 +186,12 @@ TextureImporter:
       name: Jail_Ani_2
       rect:
         serializedVersion: 2
-        x: 1459
+        x: 1465
         y: 0
-        width: 719
-        height: 1500
+        width: 710
+        height: 1501
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -207,12 +207,12 @@ TextureImporter:
       name: Jail_Ani_3
       rect:
         serializedVersion: 2
-        x: 2166
+        x: 2170
         y: 0
-        width: 719
-        height: 1500
+        width: 710
+        height: 1501
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -228,12 +228,12 @@ TextureImporter:
       name: Jail_Ani_4
       rect:
         serializedVersion: 2
-        x: 2876
+        x: 2875
         y: 0
-        width: 719
-        height: 1500
+        width: 710
+        height: 1501
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -249,12 +249,12 @@ TextureImporter:
       name: Jail_Ani_5
       rect:
         serializedVersion: 2
-        x: 3591
+        x: 3580
         y: 0
-        width: 719
-        height: 1500
+        width: 710
+        height: 1501
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -270,12 +270,12 @@ TextureImporter:
       name: Jail_Ani_6
       rect:
         serializedVersion: 2
-        x: 4292
+        x: 4295
         y: 0
-        width: 719
-        height: 1500
+        width: 710
+        height: 1501
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -291,12 +291,12 @@ TextureImporter:
       name: Jail_Ani_7
       rect:
         serializedVersion: 2
-        x: 4998
+        x: 5003
         y: 0
-        width: 719
-        height: 1500
+        width: 710
+        height: 1501
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -312,12 +312,12 @@ TextureImporter:
       name: Jail_Ani_8
       rect:
         serializedVersion: 2
-        x: 5700
+        x: 5708
         y: 0
-        width: 719
-        height: 1500
+        width: 710
+        height: 1501
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -333,12 +333,12 @@ TextureImporter:
       name: Jail_Ani_9
       rect:
         serializedVersion: 2
-        x: 6407
+        x: 6413
         y: 0
-        width: 719
-        height: 1500
+        width: 710
+        height: 1501
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -353,7 +353,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 0f4e4a5057626a4419a46a29802aafad
+    spriteID: a77c0a4bbeecf8941a3442b671bdcfd6
     internalID: 0
     vertices: []
     indices: 

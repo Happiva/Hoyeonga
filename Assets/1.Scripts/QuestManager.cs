@@ -85,7 +85,7 @@ public class QuestManager : MonoBehaviour
 
             case Prize.EVENT:
                 interactNPC.GetComponent<Interactable>().interactAction.Invoke();
-                Debug.Log("Event occured");
+                //Debug.Log("Event occured");
 
                 break;
             case Prize.NULL:

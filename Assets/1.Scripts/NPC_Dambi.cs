@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Playables;
+using UnityEngine.Timeline;
 
 public class NPC_Dambi : MonoBehaviour
 {
@@ -16,7 +17,11 @@ public class NPC_Dambi : MonoBehaviour
     private bool movingLog;
     public GameObject log;
 
+    public GameObject trigger;
+
     private Vector3 offset;
+
+    public TimelineAsset[] actionList;
 
     void Start()
     {
@@ -40,25 +45,7 @@ public class NPC_Dambi : MonoBehaviour
         {
             transform.localPosition = offset;
         }
-        
-    }
-
-    /*
-    private void Move()
-    {
-        Collider2D hit = Physics2D.OverlapCircle(new Vector3(transform.localPosition.x + 0.5f, transform.localPosition.y), 0.2f, LayerMask.GetMask("Ground"));
-
-        if (transform.position.x < targetPosition.position.x)
-        {
-            rigid.velocity = new Vector2(speed, 0);
-        }
-
-        if (hit != null)
-        {
-            rigid.AddForce(Vector3.up * 3f, ForceMode2D.Impulse);
-        }
-    }
-    */
+    }    
 
     void OnDrawGizmosSelected()
     {        
@@ -75,11 +62,22 @@ public class NPC_Dambi : MonoBehaviour
         this.transform.parent = log.transform;
         movingLog = true;
         animator.SetBool("isMoving", true);
-
-        //offset = log.transform.position - this.transform.position;
+        
         offset = this.transform.localPosition;
 
         log.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
         log.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject == trigger)
+        {               
+            offset = transform.position;
+            this.transform.parent = null;
+            transform.position = offset;
+            director.playableAsset = actionList[1];
+            director.Play();
+        }
     }
 }

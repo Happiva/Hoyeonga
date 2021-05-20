@@ -24,9 +24,7 @@ public class Jail : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            ani.SetBool("Broke", true);
-            rigid.constraints = RigidbodyConstraints2D.None;
-            rigid.constraints = RigidbodyConstraints2D.FreezeRotation;
+            ani.SetBool("Broke", true);            
         }
 
         if (collision.gameObject.tag == "Ground")
@@ -35,5 +33,11 @@ public class Jail : MonoBehaviour
             //rigid.constraints = RigidbodyConstraints2D.FreezePositionY;
             dust.GetComponent<Animator>().SetTrigger("Play");
         }
+    }
+
+    void Drop()
+    {
+        rigid.constraints = RigidbodyConstraints2D.None;
+        rigid.constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 }

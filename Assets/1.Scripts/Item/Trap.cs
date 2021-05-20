@@ -28,4 +28,13 @@ public class Trap : MonoBehaviour
             }            
         }
     }
+
+    public void ReleaseTrap()
+    {
+        if (trapType == Trap_Type.SPIKE && GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>().GetItemId() == 10001)
+        {
+            Destroy(gameObject);
+        }
+        
+    }
 }
