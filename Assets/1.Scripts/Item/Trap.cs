@@ -33,6 +33,7 @@ public class Trap : MonoBehaviour
     {
         if (trapType == Trap_Type.SPIKE && GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>().GetItemId() == 10001)
         {
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Inventory>().ClearInventory();
             Destroy(gameObject);
         }
         

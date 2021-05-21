@@ -51,7 +51,7 @@ public class NPC_Dambi : MonoBehaviour
             transform.localPosition = offset;
         }
 
-        Debug.Log(eventNum);
+        //Debug.Log(eventNum);
     }    
 
     public void FreeDambi()
@@ -61,7 +61,7 @@ public class NPC_Dambi : MonoBehaviour
 
     public void PushLog()
     {
-        Debug.Log("Push log");
+        //Debug.Log("Push log");
         transform.parent = logs[logNum].transform;
         movingLog = true;
         animator.SetBool("isMoving", true);
@@ -76,7 +76,7 @@ public class NPC_Dambi : MonoBehaviour
     {
         if (collision.gameObject == trigger[triggerNum])
         {
-            Debug.Log("Enter Trigger");
+            //Debug.Log("Enter Trigger");
             offset = transform.position;
             transform.parent = null;
             transform.position = offset;
@@ -93,7 +93,7 @@ public class NPC_Dambi : MonoBehaviour
 
     private void NextLog()
     {
-        Debug.Log("Next Log!");
+        //Debug.Log("Next Log!");
         logNum++;
     }
 
