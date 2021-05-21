@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4427488811498322933}
   - component: {fileID: 3713596381401688912}
   m_Layer: 11
-  m_Name: Tree (2)
+  m_Name: Oak
   m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -70,9 +70,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -879824367
-  m_SortingLayer: 2
+  m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6853945449968116542, guid: d809c1067d5af1f4fae702646a767d61,
+  m_Sprite: {fileID: 2094539507303234006, guid: 2022e4a4412c621448a5ab4ab24ca26b,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -101,7 +101,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.35, y: 3.62}
+    oldSize: {x: 7.38, y: 3.62}
     newSize: {x: 2, y: 0.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -127,7 +127,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 7.35, y: 3.62}
+    oldSize: {x: 7.38, y: 3.62}
     newSize: {x: 2, y: 0.6}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
