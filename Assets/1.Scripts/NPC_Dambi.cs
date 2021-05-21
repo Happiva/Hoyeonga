@@ -19,6 +19,8 @@ public class NPC_Dambi : MonoBehaviour
 
     public GameObject[] trigger;
 
+    private GameObject player;
+
     private Vector3 offset;
 
     public TimelineAsset[] actionList;
@@ -37,6 +39,8 @@ public class NPC_Dambi : MonoBehaviour
         logNum = 0;
         eventNum = 0;
         triggerNum = 0;
+
+        player = GameObject.FindGameObjectWithTag("Player");
     }
     
     void Update()
@@ -105,5 +109,15 @@ public class NPC_Dambi : MonoBehaviour
     public void StopDambi()
     {
         animator.SetBool("isMoving", false);
+    }
+
+    public void DisablePlayer()
+    {
+        player.SetActive(false);
+    }
+
+    public void ActivePlayer()
+    {
+        player.SetActive(true);
     }
 }
