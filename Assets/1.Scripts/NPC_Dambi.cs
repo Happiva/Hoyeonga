@@ -15,14 +15,16 @@ public class NPC_Dambi : MonoBehaviour
 
     private bool isTrap;
     private bool movingLog;
-    public GameObject log;
+    public GameObject[] logs;
 
-    public GameObject trigger;
+    public GameObject[] trigger;
 
     private Vector3 offset;
 
     public TimelineAsset[] actionList;
     private int eventNum;
+    private int logNum;
+    private int triggerNum;
 
     void Start()
     {
@@ -32,8 +34,9 @@ public class NPC_Dambi : MonoBehaviour
 
         isTrap = true;
         movingLog = false;
-
+        logNum = 0;
         eventNum = 0;
+        triggerNum = 0;
     }
     
     void Update()
@@ -47,12 +50,9 @@ public class NPC_Dambi : MonoBehaviour
         {
             transform.localPosition = offset;
         }
-    }    
 
-    void OnDrawGizmosSelected()
-    {        
-        Gizmos.DrawWireSphere(new Vector3(transform.localPosition.x + 0.25f, transform.localPosition.y), .2f);
-    }
+        Debug.Log(eventNum);
+    }    
 
     public void FreeDambi()
     {
@@ -61,22 +61,24 @@ public class NPC_Dambi : MonoBehaviour
 
     public void PushLog()
     {
-        this.transform.parent = log.transform;
+        Debug.Log("Push log");
+        transform.parent = logs[logNum].transform;
         movingLog = true;
         animator.SetBool("isMoving", true);
         
-        offset = this.transform.localPosition;
+        offset = transform.localPosition;
 
-        log.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
-        log.GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
+        logs[logNum].GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.None;
+        logs[logNum].GetComponent<Rigidbody2D>().constraints = RigidbodyConstraints2D.FreezeRotation;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject == trigger)
-        {               
+        if (collision.gameObject == trigger[triggerNum])
+        {
+            Debug.Log("Enter Trigger");
             offset = transform.position;
-            this.transform.parent = null;
+            transform.parent = null;
             transform.position = offset;
             NextEvent();
         }
@@ -87,5 +89,21 @@ public class NPC_Dambi : MonoBehaviour
         eventNum++;
         director.playableAsset = actionList[eventNum];
         director.Play();
+    }
+
+    private void NextLog()
+    {
+        Debug.Log("Next Log!");
+        logNum++;
+    }
+
+    private void NextTrigger()
+    {
+        triggerNum++;
+    }
+
+    public void StopDambi()
+    {
+        animator.SetBool("isMoving", false);
     }
 }
