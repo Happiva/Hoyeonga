@@ -15,7 +15,6 @@ public class Log : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(rigid.velocity.x);
         ani.SetFloat("Speed", rigid.velocity.x);
     }
 }
