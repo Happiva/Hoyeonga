@@ -22,6 +22,7 @@ public class NPC_Dambi : MonoBehaviour
     private Vector3 offset;
 
     public TimelineAsset[] actionList;
+    private int eventNum;
 
     void Start()
     {
@@ -31,8 +32,9 @@ public class NPC_Dambi : MonoBehaviour
 
         isTrap = true;
         movingLog = false;
-    }
 
+        eventNum = 0;
+    }
     
     void Update()
     {        
@@ -76,8 +78,14 @@ public class NPC_Dambi : MonoBehaviour
             offset = transform.position;
             this.transform.parent = null;
             transform.position = offset;
-            director.playableAsset = actionList[1];
-            director.Play();
+            NextEvent();
         }
+    }
+
+    private void NextEvent()
+    {
+        eventNum++;
+        director.playableAsset = actionList[eventNum];
+        director.Play();
     }
 }

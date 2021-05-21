@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 6647351938513628743}
   - component: {fileID: 6647351938513628742}
   - component: {fileID: 1812129469}
+  - component: {fileID: 2844068170205498112}
+  - component: {fileID: 1812129473}
   m_Layer: 10
   m_Name: Log
   m_TagString: Object
@@ -104,7 +106,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!60 &1812129469
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -136,3 +138,34 @@ PolygonCollider2D:
       - {x: 0.66665035, y: 0.18504621}
       - {x: 0.32804257, y: 0.534}
       - {x: -0.5536441, y: 0.534}
+--- !u!95 &2844068170205498112
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6647351938513628738}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 659946b65b46a514d9c0222b9d52fcaf, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1812129473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6647351938513628738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82ec93e30bb05ab429b30945018dfc61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

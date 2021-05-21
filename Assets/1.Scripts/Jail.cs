@@ -8,6 +8,9 @@ public class Jail : MonoBehaviour
     private Rigidbody2D rigid;
     private Animator ani;
     public GameObject dust;
+
+    public Sprite broken;
+
     void Start()
     {
         collider = GetComponent<BoxCollider2D>();
@@ -24,7 +27,7 @@ public class Jail : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            ani.SetBool("Broke", true);            
+            ani.SetBool("Drop", true);            
         }
 
         if (collision.gameObject.tag == "Ground")
@@ -32,6 +35,7 @@ public class Jail : MonoBehaviour
             //rigid.constraints = RigidbodyConstraints2D.FreezePositionX;
             //rigid.constraints = RigidbodyConstraints2D.FreezePositionY;
             dust.GetComponent<Animator>().SetTrigger("Play");
+            ani.SetBool("Broke", true);
         }
     }
 
