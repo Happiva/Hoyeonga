@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f59ba8c5793d04b4982445c4ece24d05
+guid: 0fc6fe2141baa8941bac7606ac0b19bd
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -62,7 +62,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: 1
+    aniso: -1
     mipBias: -100
     wrapU: 1
     wrapV: 1
@@ -144,10 +144,10 @@ TextureImporter:
       name: Jail_Ani_0
       rect:
         serializedVersion: 2
-        x: 52
+        x: 55
         y: 0
         width: 710
-        height: 1595
+        height: 1501
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -165,10 +165,10 @@ TextureImporter:
       name: Jail_Ani_1
       rect:
         serializedVersion: 2
-        x: 757
+        x: 760
         y: 0
         width: 710
-        height: 1595
+        height: 1501
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -186,10 +186,10 @@ TextureImporter:
       name: Jail_Ani_2
       rect:
         serializedVersion: 2
-        x: 1461
+        x: 1465
         y: 0
         width: 710
-        height: 1595
+        height: 1501
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -207,10 +207,10 @@ TextureImporter:
       name: Jail_Ani_3
       rect:
         serializedVersion: 2
-        x: 2166
+        x: 2170
         y: 0
         width: 710
-        height: 1595
+        height: 1501
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,10 +228,10 @@ TextureImporter:
       name: Jail_Ani_4
       rect:
         serializedVersion: 2
-        x: 2871
+        x: 2875
         y: 0
         width: 710
-        height: 1595
+        height: 1501
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -249,10 +249,10 @@ TextureImporter:
       name: Jail_Ani_5
       rect:
         serializedVersion: 2
-        x: 3589
+        x: 3580
         y: 0
         width: 710
-        height: 1595
+        height: 1501
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -270,10 +270,10 @@ TextureImporter:
       name: Jail_Ani_6
       rect:
         serializedVersion: 2
-        x: 4301
+        x: 4295
         y: 0
         width: 710
-        height: 1595
+        height: 1501
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -291,10 +291,10 @@ TextureImporter:
       name: Jail_Ani_7
       rect:
         serializedVersion: 2
-        x: 5011
+        x: 5003
         y: 0
         width: 710
-        height: 1595
+        height: 1501
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -312,10 +312,10 @@ TextureImporter:
       name: Jail_Ani_8
       rect:
         serializedVersion: 2
-        x: 5714
+        x: 5708
         y: 0
         width: 710
-        height: 1595
+        height: 1501
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -333,10 +333,10 @@ TextureImporter:
       name: Jail_Ani_9
       rect:
         serializedVersion: 2
-        x: 6424
+        x: 6413
         y: 0
         width: 710
-        height: 1595
+        height: 1501
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -353,7 +353,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 186e33bb3764f5a4bb139d950f41209b
+    spriteID: a77c0a4bbeecf8941a3442b671bdcfd6
     internalID: 0
     vertices: []
     indices: 

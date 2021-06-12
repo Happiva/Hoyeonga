@@ -1,37 +1,31 @@
 fileFormatVersion: 2
-guid: f59ba8c5793d04b4982445c4ece24d05
+guid: 13b04c5f91f704c42a966561b0f51709
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7885860077391051363
-    second: Jail_Ani_0
+      213: -5114715431223651134
+    second: Log_Ani_Ver1_0
   - first:
-      213: -4212383260753688166
-    second: Jail_Ani_1
+      213: 7343898062866758107
+    second: Log_Ani_Ver1_1
   - first:
-      213: 8037116304764509863
-    second: Jail_Ani_2
+      213: 328681979915397295
+    second: Log_Ani_Ver1_2
   - first:
-      213: 2820357189593106235
-    second: Jail_Ani_3
+      213: -6563862155887173693
+    second: Log_Ani_Ver1_3
   - first:
-      213: 7820425375780043889
-    second: Jail_Ani_4
+      213: 4033265373306308772
+    second: Log_Ani_Ver1_4
   - first:
-      213: -4380071722685896128
-    second: Jail_Ani_5
+      213: 4568105664631005853
+    second: Log_Ani_Ver1_5
   - first:
-      213: -7210886329791051183
-    second: Jail_Ani_6
+      213: -2384113213450218682
+    second: Log_Ani_Ver1_6
   - first:
-      213: 3504914803804430941
-    second: Jail_Ani_7
-  - first:
-      213: 1281092492541114425
-    second: Jail_Ani_8
-  - first:
-      213: -2456442046521383695
-    second: Jail_Ani_9
+      213: -7845643751545708308
+    second: Log_Ani_Ver1_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -75,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -141,13 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Jail_Ani_0
+      name: Log_Ani_Ver1_0
       rect:
         serializedVersion: 2
-        x: 52
+        x: 75
         y: 0
-        width: 710
-        height: 1595
+        width: 394
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36af35595f3307d60800000000000000
-      internalID: 7885860077391051363
+      spriteID: 2c494ba0a61e409b0800000000000000
+      internalID: -5114715431223651134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jail_Ani_1
+      name: Log_Ani_Ver1_1
       rect:
         serializedVersion: 2
-        x: 757
+        x: 443
         y: 0
-        width: 710
-        height: 1595
+        width: 394
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -176,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a9989f41ebb9a85c0800000000000000
-      internalID: -4212383260753688166
+      spriteID: bd93ad7e064cae560800000000000000
+      internalID: 7343898062866758107
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jail_Ani_2
+      name: Log_Ani_Ver1_2
       rect:
         serializedVersion: 2
-        x: 1461
+        x: 811
         y: 0
-        width: 710
-        height: 1595
+        width: 394
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -197,20 +191,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ae1dfb52b2998f60800000000000000
-      internalID: 8037116304764509863
+      spriteID: fa8ede0f486bf8400800000000000000
+      internalID: 328681979915397295
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jail_Ani_3
+      name: Log_Ani_Ver1_3
       rect:
         serializedVersion: 2
-        x: 2166
+        x: 1190
         y: 0
-        width: 710
-        height: 1595
+        width: 394
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +212,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b378a69cbebe32720800000000000000
-      internalID: 2820357189593106235
+      spriteID: 3cf17b3652a78e4a0800000000000000
+      internalID: -6563862155887173693
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jail_Ani_4
+      name: Log_Ani_Ver1_4
       rect:
         serializedVersion: 2
-        x: 2871
+        x: 1566
         y: 0
-        width: 710
-        height: 1595
+        width: 394
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +233,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 17cf1d3e17bb78c60800000000000000
-      internalID: 7820425375780043889
+      spriteID: 4a84ec4ec7909f730800000000000000
+      internalID: 4033265373306308772
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jail_Ani_5
+      name: Log_Ani_Ver1_5
       rect:
         serializedVersion: 2
-        x: 3589
+        x: 1936
         y: 0
-        width: 710
-        height: 1595
+        width: 394
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -260,20 +254,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04ae29e89fbd633c0800000000000000
-      internalID: -4380071722685896128
+      spriteID: d92e7cc26eb256f30800000000000000
+      internalID: 4568105664631005853
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jail_Ani_6
+      name: Log_Ani_Ver1_6
       rect:
         serializedVersion: 2
-        x: 4301
+        x: 2323
         y: 0
-        width: 710
-        height: 1595
+        width: 394
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -281,20 +275,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 15a85158619cdeb90800000000000000
-      internalID: -7210886329791051183
+      spriteID: 6431cf7f9ade9eed0800000000000000
+      internalID: -2384113213450218682
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Jail_Ani_7
+      name: Log_Ani_Ver1_7
       rect:
         serializedVersion: 2
-        x: 5011
+        x: 2686
         y: 0
-        width: 710
-        height: 1595
+        width: 394
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -302,50 +296,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d5265c8b175f3a030800000000000000
-      internalID: 3504914803804430941
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jail_Ani_8
-      rect:
-        serializedVersion: 2
-        x: 5714
-        y: 0
-        width: 710
-        height: 1595
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 938355e95da57c110800000000000000
-      internalID: 1281092492541114425
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Jail_Ani_9
-      rect:
-        serializedVersion: 2
-        x: 6424
-        y: 0
-        width: 710
-        height: 1595
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1f462c539f6f8edd0800000000000000
-      internalID: -2456442046521383695
+      spriteID: ce0ead2739cae1390800000000000000
+      internalID: -7845643751545708308
       vertices: []
       indices: 
       edges: []
@@ -353,7 +305,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 186e33bb3764f5a4bb139d950f41209b
+    spriteID: 1bc6c8631da54b24bb144e356abef8fa
     internalID: 0
     vertices: []
     indices: 

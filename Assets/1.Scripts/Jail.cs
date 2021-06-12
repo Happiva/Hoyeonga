@@ -4,16 +4,13 @@ using UnityEngine;
 
 public class Jail : MonoBehaviour
 {
-    private BoxCollider2D collider;
     private Rigidbody2D rigid;
     private Animator ani;
     public GameObject dust;
-
-    public Sprite broken;
+    public GameObject empty_jail;
 
     void Start()
     {
-        collider = GetComponent<BoxCollider2D>();
         rigid = GetComponent<Rigidbody2D>();
         ani = GetComponent<Animator>();
     }
@@ -31,13 +28,24 @@ public class Jail : MonoBehaviour
         }
 
         if (collision.gameObject.tag == "Ground")
-        {            
-            //rigid.constraints = RigidbodyConstraints2D.FreezePositionX;
-            //rigid.constraints = RigidbodyConstraints2D.FreezePositionY;
+        {
+            Debug.Log(transform.position);
+            dust.transform.parent = GameObject.Find("Object").transform;
             dust.GetComponent<Animator>().SetTrigger("Play");
-            ani.SetBool("Broke", true);
+            //ani.SetBool("Broke", true);
+            GameObject ins = Instantiate(empty_jail, transform.position, Quaternion.identity);
+            ins.transform.parent = GameObject.Find("Object").transform;
+
+            //Invoke("DestroyObject", 1f);
+            Destroy(gameObject);
         }
     }
+
+    void DestroyObject()
+    {
+        Destroy(gameObject);
+    }
+
 
     void Drop()
     {

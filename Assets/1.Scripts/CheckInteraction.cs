@@ -9,6 +9,14 @@ public class CheckInteraction : MonoBehaviour
     public LayerMask interactLayer;
     public Inventory inventory;
     public QuestManager questManager;
+    private PlayerController player;
+    private Animator ani;
+
+    private void Start()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerController>();
+        ani = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
+    }
 
     void Update()
     {        
@@ -25,7 +33,13 @@ public class CheckInteraction : MonoBehaviour
                 if (hit.gameObject.GetComponent<Interactable>().type == Interactable.InteractionType.NPC)
                 {
                     questManager.CheckQuestProcess(hit.gameObject);
-                }                
+                }
+
+                if (hit.gameObject.GetComponent<Interactable>().type == Interactable.InteractionType.ITEM)
+                {
+                    player.ChangeTool(inventory.GetItemId() % 10);
+                    ani.SetTrigger("Grab");
+                }
             }
         }
         else
@@ -33,6 +47,7 @@ public class CheckInteraction : MonoBehaviour
             if (Input.GetButtonDown("Interaction"))
             {
                 inventory.DropItem();
+                player.ChangeTool(0);
             }
         }
     }

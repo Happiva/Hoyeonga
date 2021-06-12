@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: abee5487a9ea5b04b9c88f3a69eca5bd
+guid: eacd58e6fa39f8544abd78c3e1557e42
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 817094399467364064
-    second: Portal__0
+      213: -3362348345049234416
+    second: Log_Ani_Ver2_0
   - first:
-      213: 7387095541334730764
-    second: Portal__1
+      213: 6439842383667598922
+    second: Log_Ani_Ver2_1
   - first:
-      213: -929124880697529628
-    second: Portal__2
+      213: -8724299394116258037
+    second: Log_Ani_Ver2_2
   - first:
-      213: -9100157987192301745
-    second: Portal__3
+      213: 4547353470194807249
+    second: Log_Ani_Ver2_3
+  - first:
+      213: 7617070088208994716
+    second: Log_Ani_Ver2_4
+  - first:
+      213: 7723281142138338025
+    second: Log_Ani_Ver2_5
+  - first:
+      213: 6603985948540741843
+    second: Log_Ani_Ver2_6
+  - first:
+      213: -7909384693737571796
+    second: Log_Ani_Ver2_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -44,7 +56,7 @@ TextureImporter:
   textureSettings:
     serializedVersion: 2
     filterMode: -1
-    aniso: -1
+    aniso: 1
     mipBias: -100
     wrapU: 1
     wrapV: 1
@@ -57,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 200
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -123,34 +135,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Portal__0
+      name: Log_Ani_Ver2_0
       rect:
         serializedVersion: 2
-        x: 36
-        y: 89
-        width: 352
-        height: 663
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ee9634f607e65b00800000000000000
-      internalID: 817094399467364064
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Portal__1
-      rect:
-        serializedVersion: 2
-        x: 421
+        x: 65
         y: 0
-        width: 1226
-        height: 1058
+        width: 394
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +149,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c08e02f914c348660800000000000000
-      internalID: 7387095541334730764
+      spriteID: 014c732aef98651d0800000000000000
+      internalID: -3362348345049234416
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Portal__2
+      name: Log_Ani_Ver2_1
       rect:
         serializedVersion: 2
-        x: 1788
-        y: 62
-        width: 352
-        height: 663
+        x: 431
+        y: 0
+        width: 394
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +170,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4eaeb0ef7d51b13f0800000000000000
-      internalID: -929124880697529628
+      spriteID: a461308378aee5950800000000000000
+      internalID: 6439842383667598922
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Portal__3
+      name: Log_Ani_Ver2_2
       rect:
         serializedVersion: 2
-        x: 2377
-        y: 66
-        width: 216
-        height: 663
+        x: 811
+        y: 0
+        width: 394
+        height: 372
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,8 +191,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f47187d768eb5b180800000000000000
-      internalID: -9100157987192301745
+      spriteID: b077b83acef0de680800000000000000
+      internalID: -8724299394116258037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Log_Ani_Ver2_3
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 0
+        width: 394
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d1f91363e17b1f30800000000000000
+      internalID: 4547353470194807249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Log_Ani_Ver2_4
+      rect:
+        serializedVersion: 2
+        x: 1566
+        y: 0
+        width: 394
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9153f463e445b960800000000000000
+      internalID: 7617070088208994716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Log_Ani_Ver2_5
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 0
+        width: 394
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eaf0a1774b9e2b60800000000000000
+      internalID: 7723281142138338025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Log_Ani_Ver2_6
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 0
+        width: 394
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d821741b3216ab50800000000000000
+      internalID: 6603985948540741843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Log_Ani_Ver2_7
+      rect:
+        serializedVersion: 2
+        x: 2682
+        y: 0
+        width: 394
+        height: 372
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a3cd9d6883c3290800000000000000
+      internalID: -7909384693737571796
       vertices: []
       indices: 
       edges: []
@@ -209,7 +305,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e3105c2472a5d8e4da3390cd42c18087
+    spriteID: 8eb28572549a6c147b449478ac9ee5ef
     internalID: 0
     vertices: []
     indices: 

@@ -8,7 +8,8 @@ public class PlayerController : MonoBehaviour
     public float moveSpeed;
     public float jumpMoveSpeed;
     public float jumpForce;
-    
+    public float forceGravity = 50f;
+
     private float defaultMoveSpeed = 6f;
 
     [SerializeField] private bool sitDown;
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour
     private PlayerHeadCheck headCheck;
 
     public Collider2D healthCollider;
+    private int equipItem;
 
     [Header("Player Attack Component")]
     public Transform attackBox;
@@ -37,6 +39,8 @@ public class PlayerController : MonoBehaviour
 
         moveSpeed = defaultMoveSpeed;
         jumpMoveSpeed = 4.5f;
+
+        equipItem = 0;
 
         sitDown = false;
     }
@@ -110,6 +114,12 @@ public class PlayerController : MonoBehaviour
             {
                 PlayerAttack();            
             }
+        }
+
+        //낙하 속도 증가
+        if (rigid.velocity.y < 0)
+        {            
+            rigid.AddForce(Vector3.down * forceGravity);
         }
     }        
 
@@ -204,6 +214,23 @@ public class PlayerController : MonoBehaviour
         {
             animator.SetBool("isJumping", false);
         }
+    }
+
+    public void ChangeTool(int itemId)
+    {
+        if (itemId != 0)
+        {
+            equipItem = itemId;
+            animator.SetLayerWeight(equipItem, 1);
+            animator.SetLayerWeight(0, 0);
+        }
+        else if (itemId == 0)
+        {
+            equipItem = 0;
+            animator.SetLayerWeight(equipItem, 0);
+            animator.SetLayerWeight(0, 1);
+        }
+        
     }
 
     public void ControlPlayerAction(bool flag)
